@@ -89,7 +89,6 @@ public class DepartmentListController implements Initializable{
 			dialogStage.initOwner(parentStage); // parentStage é o Stage pai desse modal 
 			dialogStage.initModality(Modality.WINDOW_MODAL); // initModality é o metodo que informa qual comportamento a janela tera, nesse caso como modal. A janela fica travada, enquando não for fechada não é possivel acessar a anterior.
 			dialogStage.showAndWait();
-			
 		}
 		catch (IOException e) {
 			Alerts.showAlert("IO Exception", "Error loading View", e.getMessage(), AlertType.ERROR);
