@@ -2,5 +2,5 @@ package gui.listeners;
 
 public interface DataChangeListener {
 	
-	void onDataChangeg();
+	void onDataChanged();
 }
