@@ -85,6 +85,7 @@ public class DepartmentListController implements Initializable{
 			
 			DepartmentFormController controller = loader.getController();
 			controller.setDepartment(obj);
+			controller.setDepartmentService(new DepartmentService());
 			controller.updateFormData();
 			
 			Stage dialogStage = new Stage(); // Quando carregar uma janela de dialogo modal na frente da janela existente é necessario instanciar um novo Stage(Um palco na frente do outro)
