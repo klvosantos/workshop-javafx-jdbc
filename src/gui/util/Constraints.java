@@ -2,7 +2,7 @@ package gui.util;
 
 import javafx.scene.control.TextField;
 
-public class Constraints {
+public class Constraints { // Classe que aplica restrições aos tipos inseridos nos campos dos formularios
 
 	public static void setTextFieldInteger(TextField txt) {
 		txt.textProperty().addListener((obs, oldValue, newValue) -> {
